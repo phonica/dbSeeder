@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "extends": ["google", "plugin:import/errors", "plugin:import/warnings"],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "no-console": 1,
+    "prefer-const": 1,
+    "valid-jsdoc": [
+      "error",
+      {
+        "prefer": {
+          "arg": "param",
+          "argument": "param",
+          "class": "constructor",
+          "return": "returns",
+          "virtual": "abstract"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "dbseeder",
+  "version": "0.0.1",
+  "description": "A utility to seed the phonica database",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Leon Ormes <leonormes@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "bluebird": "^3.5.1",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1",
+    "pg": "^7.4.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.22.15"
+  }
+}
